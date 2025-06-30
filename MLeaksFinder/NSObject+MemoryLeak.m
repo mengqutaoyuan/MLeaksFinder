@@ -140,12 +140,12 @@ const void *const kLatestSenderKey = &kLatestSenderKey;
     
 #if _INTERNAL_MLF_RC_ENABLED
     // Just find a place to set up FBRetainCycleDetector.
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [FBAssociationManager hook];
-        });
-    });
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            [FBAssociationManager hook];
+//        });
+//    });
 #endif
     
     Class class = [self class];
