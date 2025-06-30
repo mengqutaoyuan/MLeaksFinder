@@ -1,12 +1,22 @@
 PODS:
-  - FBRetainCycleDetector (0.1.2)
+  - FBRetainCycleDetector (0.1.4)
 
 DEPENDENCIES:
-  - FBRetainCycleDetector
+  - FBRetainCycleDetector (from `https://github.com/mengqutaoyuan/FBRetainCycleDetector.git`, tag `fix-swift-error`)
+
+EXTERNAL SOURCES:
+  FBRetainCycleDetector:
+    :git: https://github.com/mengqutaoyuan/FBRetainCycleDetector.git
+    :tag: fix-swift-error
+
+CHECKOUT OPTIONS:
+  FBRetainCycleDetector:
+    :git: https://github.com/mengqutaoyuan/FBRetainCycleDetector.git
+    :tag: fix-swift-error
 
 SPEC CHECKSUMS:
-  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
+  FBRetainCycleDetector: 501251c8df6ae40296b20ab5d1a5462f4ffe994a
 
-PODFILE CHECKSUM: 38741d1572d2c8740a441bc6562c61fa2ce1ef2e
+PODFILE CHECKSUM: 5c6e26931ab18313a1d2bb079304027e0906d79c
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.16.2

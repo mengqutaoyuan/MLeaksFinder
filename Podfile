@@ -6,6 +6,6 @@ target 'MLeaksFinder' do
   # use_frameworks!
 
   # Pods for MLeaksFinder
-  pod 'FBRetainCycleDetector'
+  pod 'FBRetainCycleDetector' ,:configurations => ['Debug'] ,:git => 'https://github.com/mengqutaoyuan/FBRetainCycleDetector.git',:tag => "fix-swift-error"
 
 end
